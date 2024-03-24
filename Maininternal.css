@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+}
+.sidebar {
+  background-color: #002A42;
+  padding: 20px
+  width: 25px
+}
+.siderbar h2 {
+  color: #f1f1f1;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar li a {
+  color: #f1f1f1;
+  display: block;
+  padding: 10px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.profile {
+  margin-bottom: 20px;
+}
+
+#profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#change-profile-link {
+  color: blue;
+  cursor: pointer;
+}
+
+.box {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.box h3 {
+  color: #333;
+}
+
+#grades table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#grades th,
+#grades td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#add-grade-btn,
+#add-achievement-btn,
+#add-clubs-btn,
+#add-interest-btn {
+  margin-top: 10px;
+}
+
+#achievements-list,
+#clubs-list,
+#interest-list {
+  padding-left: 0;
+}
+
+#achievements-list li,
+#clubs-list li,
+#interest-list li {
+  margin-bottom: 10px;
+}
