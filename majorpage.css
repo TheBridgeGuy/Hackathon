@@ -24,7 +24,6 @@ body {
   background-color: #002A42;
   margin-bottom: 10px;
 }
-}
 .sidebar li {
   margin-bottom: 10px;
   list-style-type: none;
@@ -46,23 +45,12 @@ body {
 .profile {
   margin-bottom: 20px;
 }
-.profile img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-#change-profile-link {
-  display: block;
-  text-align: center;
-  margin-top: 10px;
-  color: #333;
-}
 .box {
   border-radius: 25px;
   padding: 20px;
-  background-color: #d9d9d9;
-  margin-bottom: 20px;
+  background-color: #eeeeee;
+  width: 1000px;
+  height: 150px;
 }
 .box h3 {
   color: #eeeeee;
@@ -74,7 +62,6 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
-table th,
 table td {
   padding: 10px;
   text-align: left;
