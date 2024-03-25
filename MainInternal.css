@@ -30,7 +30,7 @@
   border-radius: 5px;
 }
 .sidebar li a:hover {
-  background-color: #f1f1f1;
+  background-color: #ddd39d;
   color: #002A42;
 }
 .sidebar li:first-child a {
@@ -44,7 +44,6 @@
 .content {
 flex: 1;
 padding: 20px;
-width: calc(100%-200px);
 }
 .profile {
 margin-bottom: 20px;
@@ -65,7 +64,7 @@ cursor: pointer;
 .box {
 border-radius: 25px;
 padding: 20px;
-background-color: #ddd39d;
+background-color: #f9f9f9;
 padding: 20px;
 width: 500px;
 height: 150px;
