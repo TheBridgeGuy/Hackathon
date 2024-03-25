@@ -43,6 +43,7 @@
 .content {
 flex: 1;
 padding: 20px;
+width: calc(100%-200px)
 }
 .profile {
 margin-bottom: 20px;
