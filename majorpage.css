@@ -9,6 +9,7 @@ body {
     padding: 20px;
     width: 200px;
     border-radius: 10px;
+    length: 800px;
     color: #f1f1f1;
 }
 .sidebar h1 {
@@ -23,7 +24,7 @@ body {
     margin-bottom: 10px;
 }
 .sidebar li a {
-    color: #f1f1f1;
+    color: #002A42;
     display: block;
     padding: 10px;
     font-size: 18px;
