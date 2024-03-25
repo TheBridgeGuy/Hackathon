@@ -74,7 +74,7 @@ table th {
 }
 button {
   padding: 10px 20px;
-  background-color: #AA272F;
+  background-color: #002A42;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -83,7 +83,7 @@ button {
   margin-top: 10px;
 }
 button:hover {
-  background-color: #871c23;
+  background-color: #ddd39d;
 }
 p {
   margin-top: 20px;
