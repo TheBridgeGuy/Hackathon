@@ -3,8 +3,8 @@
 }
 .sidebar {
   background-color: #002A42;
-  padding: 20px
-  width: 25px
+  padding: 20px;
+  width: 15px;
 }
 .siderbar h2 {
   color: #f1f1f1;
@@ -17,27 +17,38 @@
   color: #f1f1f1;
   display: block;
   padding: 10px;
+  margin-bottom:10px;
 }
+.sidebar a:hover {
+    color: yellow;
+  }
 .content {
   flex: 1;
   padding: 20px;
 }
 .profile {
   margin-bottom: 20px;
+  aligned-items: center;
 }
 #profile-picture {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
 }
 #change-profile-link {
   color: blue;
   cursor: pointer;
 }
 .box {
-  margin-bottom: 20px;
+  border-radius: 25px;
   padding: 20px;
   background-color: #f9f9f9;
+  padding: 20px;
+  width: 500px;
+  height: 150px;
 }
 .box h3 {
   color: #333;
