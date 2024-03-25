@@ -19,6 +19,11 @@ body {
 .sidebar ul {
   list-style-type: none;
   padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #002A42;
+  margin-bottom: 10px;
+}
 }
 .sidebar li {
   margin-bottom: 10px;
