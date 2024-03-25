@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  height: 500px;
+  height: auto;
 }
 .sidebar {
   background-color: #002A42;
@@ -67,7 +67,7 @@ padding: 20px;
 background-color: #f9f9f9;
 padding: 20px;
 width: 500px;
-height: 150px;
+height: 300px;
 }
 .box h3 {
 color: #333;
