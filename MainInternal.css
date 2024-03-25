@@ -78,24 +78,21 @@ height: 150px;
 .box .title-wrapper {
   display: flex;
   align-items: center;
-  border: 2px solid ddd39d; 
-  border-radius: 20px;
-  padding: 10px; 
   margin-bottom: 20px;
 }
 .box .title-wrapper h3 {
   color: #333;
   margin: 0;
 }
-.box h3 {
-margin: 0;
-}
 .box .title-wrapper:before {
   content: "";
-  display: block;
-  width: 20px;
-  height: 100%;
+  flex: 1;
+  height: 2px;
   background-color: #ddd39d;
+  margin-right: 10px;
+}
+.box h3 {
+margin: 0;
 }
 #grades table {
 width: 100%;
