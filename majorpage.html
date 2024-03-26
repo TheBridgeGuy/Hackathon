@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="majorpage.css">
+    <title>Course Selection</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#grades">Grades</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="logout.html">Log out</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Course Selection</h2>
+            
+            <h2>Choose your major:</h2>
+            <button onclick="showClasses('all')">All</button>
+            <button onclick="showClasses('Humanities')">Humanities</button>
+            <button onclick="showClasses('MathScience')">Math / Science</button>
+            <button onclick="showClasses('Econ')">Economics</button>
+            <button onclick="showClasses('CS')">Computer Science</button>
+            
+            <h2>Course List:</h2>
+            <ul>
+                <li class="class Humanities">English Literature</li>
+                <li class="class Humanities">Art History</li>
+                <li class="class MathScience">Calculus I</li>
+                <li class="class MathScience">Physics</li>
+                <li class="class Econ">Microeconomics</li>
+                <li class="class Econ">Macroeconomics</li>
+                <li class="class CS">Introduction to Programming</li>
+                <li class="class CS">Data Structures</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function showClasses(major) {
+            var classes = document.getElementsByClassName("class");
+            for (var i = 0; i < classes.length; i++) {
+                if (major === "all" || classes[i].classList.contains(major)) {
+                    classes[i].style.display = "block";
+                } else {
+                    classes[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
